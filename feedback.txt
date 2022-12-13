@@ -1,0 +1,36 @@
+Requirements:
+[Y] Use Flexbox or Grid system layout for the basic structure of your elements
+[G] Be able to navigate to the different pages. For example, clicking on "Login" should bring me to the login page, filling out the information and clicking "login" should then lead me to the dashboard page. Then, clicking "logout" should bring me back to the home page.
+[Y] You will have 4 pages that are responsive to screen sizes. Each page will include both mobile and desktop views.
+[G] Separate your CSS files by pages. Do NOT have one giant CSS file
+
+_ Hardcode any text and don't worry about getting information from somewhere else (...for now)
+_ You CAN use reusable components from Bootstrap
+_ If you want to make something different from your mockup, that's fine, just don't change too much without keeping track of your changes and modifying the mockup if need be.
+
+General
+_ Use relative units ( rem, em, % )
+_ !! AVOID !! Absolute units (px, ...)
+
+home.html
+_ unresponsive
+_ desktop looks great
+_ flex container with no layout changes
+
+login.html 
+_ links to singUp.html - yay!
+_ responsive (mostly)
+_ desktop - great!
+_ mobile - those pixels, man...
+  -> absolute units causing wacky margins/padding/etc
+
+profile.html
+_ unresponsive
+_ desktop looks great
+_ flex container with no layout changes
+
+signUp.html
+_ links to login.html - yay!
+_ form 
+  -> unresponsive
+  -> inputs do not flex into column
